@@ -1,0 +1,17 @@
+﻿<Window x:Class="DataCreater.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <Label Content="Forename"></Label>
+            <TextBox x:Name="Forename"/>
+            <Label Content="Surname"></Label>
+            <TextBox x:Name="Surname"/>
+            <Label Content="Person Type Id"/>
+            <TextBox x:Name="PersonTypeId"/>
+            <Button Content="Go" x:Name="Go" Click="Go_Click"/>
+            <Button Content="Go" x:Name="GetKids" Click="GetKids_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
